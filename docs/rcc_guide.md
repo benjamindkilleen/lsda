@@ -92,9 +92,9 @@ sections of homework.
 ## Now, wasn't that annoying?
 
 Instead of typing or copying all that in every time you want to do the homework,
-you should use 
-[this little script](https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway). 
-That does it for you!
+you should use
+[this](https://github.com/bendkill/lsda/blob/master/scripts/midway) little
+script that does it for you!
 
 It requires some setup. In a terminal on your machine, run:
 ```
@@ -112,8 +112,8 @@ midway
 ```
 from any terminal on your computer.
 
+### You should note:
 
-Note:
 1. This script requires storing your CNetID password in plaintext on your
    machine, which is a minor security risk if your disk is not encrypted. If you
    would rather enter your password each time, remove lines 3 and 4 from the
