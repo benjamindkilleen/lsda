@@ -55,10 +55,11 @@ using `mkdir lsda`. Navigate to it with `cd lsda`.
 
 On `midway`, there are *compute nodes* and *login nodes*. A good analogy is
 putting on shoes. When you log in, you are on a login node, which is like being
-barefoot. You probably won't do much on a login nodes, but you can look around.
+barefoot. You probably won't do much on a login node, but you can look around.
 
-Compute nodes are like work boots. In LSDA, we will be using interactive nodes,
-which are a type of compute node. To start an interactive node, run
+Compute nodes are like work boots; you use them to get stuff done. In LSDA, we
+will be using interactive nodes, which are a type of compute node. To start an
+interactive node, run
 ```
 sinteractive --exclusive --account=cmsc25025 --time=4:00:00 --mem=4000
 ```
