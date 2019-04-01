@@ -1,4 +1,4 @@
-# CMSC 25025 Supplementary Material
+# Benjamin Killeen's LSDA Supplementary Material
 
-Supplementary material for the Spring 2019 CMSC 25025 class, by Benjamin
-Killeen.
+Some supplementary material for the Spring 2019 Machine Learning and Large Scale
+Data Analysis class at University of Chicago.
