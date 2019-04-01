@@ -1,4 +1,4 @@
-# Zero to Jupyter Notebook on Midway
+# Earth to Jupyter in 30 Seconds: Getting Started on Midway
 
 So, you need some serious compute power? Great! If you're in Large Scale Data
 Analysis (LSDA), the university Research Computing Center (RCC) and its Midway
@@ -110,7 +110,7 @@ can log in to `midway` and start a jupyter notebook by running
 ```
 midway
 ```
-from any terminal on your computer.
+from any terminal on your computer. It should take about thirty seconds.
 
 ### You should note:
 
