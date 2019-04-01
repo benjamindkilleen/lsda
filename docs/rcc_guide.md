@@ -92,25 +92,34 @@ sections of homework.
 ## Now, wasn't that annoying?
 
 Instead of typing or copying all that in every time you want to do the homework,
-you should use [this little script](). That does it for you!
+you should use 
+[this little script](https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway). 
+That does it for you!
 
-It requires some setup:
-1. In a terminal on your machine, run:
+It requires some setup. In a terminal on your machine, run:
 ```
 cd /usr/local/sbin
-wget 
+wget https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway
 chmod +x midway
 nano midway
 ```
-and use the text editor `nano` to fix each `TODO` in the script. Note that this
-requires storing your CNetID password in plaintext on your machine, which is
-a minor security risk if your disk is not encrypted. If you would rather enter
-your password each time, remove lines 3 and 4.
+and use the text editor `nano` to replace `<CNetID>` with your CNetID and
+`YOUR_PASSWORD` with your password. You may also want to change `1` to your
+preferred 2FA method. Afterward, you
+can log in to `midway` and start a jupyter notebook by running
+```
+midway
+```
+from any terminal on your computer.
 
-This security concern is somewhated mitigated by 2FA (yay!), which still
-requires you to confirm the login using your phone or other secondary device
-(ugh). It will wait while you do this.
 
-Note: I have a Mac. These instructions should also work on Linux. If you have a
-PC, they should work inside the Unix environment, but you may have to do some
-finagling.
+Note:
+1. This script requires storing your CNetID password in plaintext on your
+   machine, which is a minor security risk if your disk is not encrypted. If you
+   would rather enter your password each time, remove lines 3 and 4 from the
+   script.
+2. This security concern is somewhated mitigated by 2FA (yay!), which still
+   requires you to confirm the login using your phone or other secondary device
+   (ugh). The script will wait while you do this.
+3. I have a Mac. These instructions should also work on Linux. If you have a PC,
+   they should work inside the Unix environment, but this has not been tested.

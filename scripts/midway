@@ -1,14 +1,14 @@
 #!/usr/bin/expect
-spawn ssh <CNetID>@midway2.rcc.uchicago.edu # TODO: fix <CNetID>
+spawn ssh <CNetID>@midway2.rcc.uchicago.edu
 expect "*assword:"                          
-send "PASSWORD\r"               # TODO: fix PASSWORD or remove lines 3,4
+send "YOUR_PASSWORD\r"
 expect "Passcode or option (1-3): "
-send "1\r"               # TODO: replace "1" with preferred 2FA method if needed
+send "1\r"
 expect "$ "
-send "cd ~/lsda"
+send "cd ~/lsda\r"
 expect "$ "
 send "sinteractive --exclusive --account=cmsc25025 --time=4:00:00 --mem=4000\r"
 expect "$ "
-send "/project/cmsc25025/run_ipython.sh"
+send "/project/cmsc25025/run_ipython.sh\r"
 expect "$ "
 interact
