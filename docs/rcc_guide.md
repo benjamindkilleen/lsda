@@ -89,7 +89,7 @@ copy-pasting.
 That's it! You've now started a jupyter notebook and can work on the coding
 sections of homework.
 
-## Now, wasn't that annoying?
+## Appendix: Now, wasn't that annoying?
 
 Instead of typing or copying all that in every time you want to do the homework,
 you should use
