@@ -5,27 +5,27 @@ Analysis (LSDA), the university Research Computing Center (RCC) and its Midway
 compute cluster **are here for you!** They have lots of great documentation and
 guides [here](https://rcc.uchicago.edu/docs/using-midway/index.html), and those
 docs are awesome! This guide is intended to take you from knowing nothing about
-`midway` to using a `jupyter notebook` for LSDA.
+Midway to using a jupyter notebook for LSDA.
 
-Benefits of using `midway`:
+Benefits of using Midway:
 * **Power-efficient**: working remotely uses less battery.
 * **Space-efficient**: big data is **big**. Don't keep it on your laptop!
-* **Fast**: `midway` has high-performance CPUs and GPUs. Code that can take an hour
-  on my laptop runs in seconds on `midway`.
+* **Fast**: Midway has high-performance CPUs and GPUs. Code that can take an hour
+  on my laptop runs in seconds on Midway.
   
-Drawbacks of using `midway`:
+Drawbacks of using Midway:
 * You, um, need a decent internet connection. Fortunately, this is 2018.
 
 Let's get started!
 
 ## Step 0: Two Factor Authentication
 
-`midway` requires two-factor authentication (2FA). Set it up
+Midway requires two-factor authentication (2FA). Set it up
 [here](https://cnet.uchicago.edu/2FA/index.htm) if needed.
 
 ## Step 1: SSH into Midway
 
-To log into `midway`, open a terminal and run
+To log into Midway, open a terminal and run
 ```
 ssh <CNetID>@midway2.rcc.uchicago.edu
 ```
@@ -43,7 +43,7 @@ Passcode or option (1-3):
 ```
 
 Type `1`, `2`, or `3`, and hit enter. Once you have confirmed the 2FA prompt,
-you will be logged into `midway` on a login node.
+you will be logged into Midway on a login node.
 
 ## Step 2: Navigate to a Working Directory
 
@@ -53,7 +53,7 @@ using `mkdir lsda`. Navigate to it with `cd lsda`.
 
 ## Step 3: Open an Interactive Node
 
-On `midway`, there are *compute nodes* and *login nodes*. A good analogy is
+On Midway, there are *compute nodes* and *login nodes*. A good analogy is
 putting on shoes. When you log in, you are on a login node, which is like being
 barefoot. You probably won't do much on a login node, but you can look around.
 
@@ -104,10 +104,10 @@ wget https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway
 chmod +x midway
 nano midway
 ```
-and use the text editor `nano` (or your favorite text editor) to replace
+and use `nano` (or your favorite text editor) to replace
 `<CNetID>` with your CNetID and `YOUR_PASSWORD` with your password. You may also
 want to change `1` to your preferred 2FA method. Afterward, you can log in to
-`midway` and start a jupyter notebook simply by running
+Midway and start a jupyter notebook simply by running
 ```
 midway
 ```
