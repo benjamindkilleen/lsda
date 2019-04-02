@@ -10,5 +10,4 @@ expect "$ "
 send "sinteractive --exclusive --account=cmsc25025 --time=4:00:00 --mem=4000\r"
 expect "$ "
 send "/project/cmsc25025/run_ipython.sh\r"
-expect "$ "
 interact
