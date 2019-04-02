@@ -63,8 +63,8 @@ interactive node, run
 ```
 sinteractive --exclusive --account=cmsc25025 --time=4:00:00 --mem=4000
 ```
-which will give you 4 hours to work with 4 GB of RAM. This should be sufficient
-for the homeworks.
+which will give you 4 hours to work with 4 GB of RAM. Feel free to change the
+session length. The memory allotment should be sufficient for the homeworks.
 
 ## Step 4: Start a Notebook
 
@@ -104,10 +104,10 @@ wget https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway
 chmod +x midway
 nano midway
 ```
-and use the text editor `nano` to replace `<CNetID>` with your CNetID and
-`YOUR_PASSWORD` with your password. You may also want to change `1` to your
-preferred 2FA method. Afterward, you
-can log in to `midway` and start a jupyter notebook by running
+and use the text editor `nano` (or your favorite text editor) to replace
+`<CNetID>` with your CNetID and `YOUR_PASSWORD` with your password. You may also
+want to change `1` to your preferred 2FA method. Afterward, you can log in to
+`midway` and start a jupyter notebook simply by running
 ```
 midway
 ```
