@@ -14,7 +14,7 @@ Benefits of using Midway:
   on my laptop runs in seconds on Midway.
   
 Drawbacks of using Midway:
-* You, um, need a decent internet connection. Fortunately, this is 2018.
+* You, um, need a decent internet connection. Fortunately, this is 2019.
 
 Let's get started!
 
