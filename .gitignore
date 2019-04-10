@@ -2,4 +2,7 @@
 **.log
 **.out
 **.toc
-auto
+**auto/
+grading
+demos/popular_python_programs.ipynb
+**.ipynb_checkpoints/

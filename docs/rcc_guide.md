@@ -15,6 +15,7 @@ Benefits of using Midway:
   
 Drawbacks of using Midway:
 * You, um, need a decent internet connection. Fortunately, this is 2019.
+* Starting an interactive session can take a few seconds.
 
 Let's get started!
 
@@ -90,7 +91,7 @@ copy-pasting.
 That's it! You've now started a jupyter notebook and can work on the coding
 sections of homework.
 
-## Appendix: Now, wasn't that annoying?
+## Now, wasn't that annoying?
 
 Instead of typing or copying all that in every time you want to do the homework,
 you should use
@@ -124,3 +125,15 @@ from any terminal on your computer. It should take about thirty seconds.
    (ugh). The script will wait while you do this.
 3. I have a Mac. These instructions should also work on Linux. If you have a PC,
    they should work inside the Unix environment, but this has not been tested.
+
+## Copying Data
+
+You can copy data to your local machine using `scp`. For example, 
+```
+scp <CNetID>@midway2.rcc.uchicago.edu:/project/cmsc25025/mnist/MNIST.npy .
+```
+which will copy the MNIST data to your current directory (after password and 2FA
+prompts). To get the labels, run:
+```
+scp <CNetID>@midway2.rcc.uchicago.edu:/project/cmsc25025/mnist/MNIST_labels.npy .
+```
