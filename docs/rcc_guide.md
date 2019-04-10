@@ -71,7 +71,7 @@ session length. The memory allotment should be sufficient for the homeworks.
 
 To start a jupyter notebook, run
 ```
-/project/cmsc25025/run_ipython.sh
+/project/cmsc25025/run_ipython.sh Anaconda3
 ```
 
 This may take a few seconds to get started, but eventually you will see
@@ -126,7 +126,9 @@ from any terminal on your computer. It should take about thirty seconds.
 3. I have a Mac. These instructions should also work on Linux. If you have a PC,
    they should work inside the Unix environment, but this has not been tested.
 
-## Copying Data
+## Other Useful Items
+
+### Copying Data
 
 You can copy data to your local machine using `scp`. For example, 
 ```
@@ -137,3 +139,24 @@ prompts). To get the labels, run:
 ```
 scp <CNetID>@midway2.rcc.uchicago.edu:/project/cmsc25025/mnist/MNIST_labels.npy .
 ```
+
+### Loading Packages
+
+On Midway, programs or "modules" are loaded using the `module load <module>`
+command, where `<module>` is the desired module, e.g. `python`. For our
+purposes, the packages loaded by `run_ipython.sh` should be sufficient, but you
+can read more about them
+[here](https://rcc.uchicago.edu/documentation/_build/html/tutorials/intro-to-software-modules/index.html).
+
+If you need to install Python packages, this can be done using `pip`. First,
+start an interactive session and load your desired Python environment. If you
+used the instructions above, this should be
+```
+module load Anaconda3
+```
+
+Once the Python module is loaded, you can run
+```
+pip install --user <package>
+```
+to install `<package` (e.g. numpy, pandas) in `user/<CNetID>/.local`.
