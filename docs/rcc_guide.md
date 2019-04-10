@@ -101,7 +101,7 @@ script that does it for you!
 It requires some setup. In a terminal on your machine, run:
 ```
 cd /usr/local/sbin
-wget https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway
+curl https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway -o midway
 chmod +x midway
 nano midway
 ```
