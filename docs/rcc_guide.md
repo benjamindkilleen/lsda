@@ -98,9 +98,8 @@ you should use
 [this](https://github.com/bendkill/lsda/blob/master/scripts/midway) little
 script that does it for you!
 
-It requires some setup. In a terminal on your machine, run:
+It requires some setup. From a directory on your PATH, run:
 ```
-cd /usr/local/sbin
 curl https://raw.githubusercontent.com/bendkill/lsda/master/scripts/midway -o midway
 chmod +x midway
 nano midway
