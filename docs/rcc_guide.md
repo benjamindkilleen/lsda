@@ -71,7 +71,7 @@ session length. The memory allotment should be sufficient for the homeworks.
 
 To start a jupyter notebook, run
 ```
-/project/cmsc25025/run_ipython.sh Anaconda3
+/project/cmsc25025/run_ipython.sh Anaconda3/2018.12
 ```
 
 This may take a few seconds to get started, but eventually you will see
@@ -151,7 +151,7 @@ If you need to install Python packages, this can be done using `pip`. First,
 start an interactive session and load your desired Python environment. If you
 used the instructions above, this should be
 ```
-module load Anaconda3
+module load Anaconda3/2018.12
 ```
 
 Once the Python module is loaded, you can run
