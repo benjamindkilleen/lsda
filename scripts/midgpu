@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+spawn ssh <CNetID>@midway2.rcc.uchicago.edu
+expect "*assword:"                          
+send "YOUR_PASSWORD\r"
+expect "Passcode or option (1-3): "
+send "1\r"
+expect "$ "
+send "cd ~/lsda\r"
+expect "$ "
+send "sinteractive --partition=gpu2 --gres=gpu:1 --account=cmsc25025 --time=4:00:00 --mem=12000"
+expect "$ "
+send "/project/cmsc25025/run_ipython_tf_gpu.sh\r"
+interact
