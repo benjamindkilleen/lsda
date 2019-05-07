@@ -62,7 +62,7 @@ Compute nodes are like work boots; you use them to get stuff done. In LSDA, we
 will be using interactive nodes, which are a type of compute node. To start an
 interactive node, run
 ```
-sinteractive --nodes=1 --ntasks=10 --account=cmsc25025 --time=4:00:00 --mem=4000
+sinteractive --nodes=1 --ntasks=10 --account=cmsc25025 --time=4:00:00 --mem=12000
 ```
 which will give you 4 hours to work with 4 GB of RAM. Feel free to change the
 session length. The memory allotment should be sufficient for the homeworks.

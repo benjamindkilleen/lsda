@@ -7,7 +7,7 @@ send "1\r"
 expect "$ "
 send "cd ~/lsda\r"
 expect "$ "
-send "sinteractive --nodes=1 --ntasks=10 --account=cmsc25025 --time=4:00:00 --mem=4000"
+send "sinteractive --nodes=1 --ntasks=10 --account=cmsc25025 --time=4:00:00 --mem=12000"
 expect "$ "
 send "/project/cmsc25025/run_ipython.sh Anaconda3/2018.12\r"
 interact
