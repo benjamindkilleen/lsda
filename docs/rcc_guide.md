@@ -116,9 +116,7 @@ from any terminal on your computer. It should take about thirty seconds.
 ### You should note:
 
 1. This script requires storing your CNetID password in plaintext on your
-   machine, which is a minor security risk if your disk is not encrypted. If you
-   would rather enter your password each time, remove lines 3 and 4 from the
-   script.
+   machine, which is a minor security risk if your disk is not encrypted.
 2. This security concern is somewhated mitigated by 2FA (yay!), which still
    requires you to confirm the login using your phone or other secondary device
    (ugh). The script will wait while you do this.
