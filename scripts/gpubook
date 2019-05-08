@@ -1,0 +1,15 @@
+#!/bin/bash
+
+module unload python
+module unload Anaconda3
+module load cuda/9.0
+module load Anaconda3/5.0.1
+source activate DL_GPU_cuda_9.0
+
+ip=$(/sbin/ip route get 8.8.8.8 | awk '{print $NF;exit}')
+port=$((10000+ $RANDOM % 20000))
+
+echo "Loaded Cuda and Python modules."
+echo "Starting ipython notebook ..."
+
+jupyter notebook --no-browser --ip=$ip --port=$port --log-level='ERROR'

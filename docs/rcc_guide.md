@@ -145,9 +145,9 @@ purposes, the packages loaded by `run_ipython.sh` should be sufficient, but you
 can read more about them
 [here](https://rcc.uchicago.edu/documentation/_build/html/tutorials/intro-to-software-modules/index.html).
 
-If you need to install Python packages, this can be done using `pip`. First,
-start an interactive session and load your desired Python environment. If you
-used the instructions above, this should be
+If you need to install Python packages, this can be done using `pip`. On a login
+node, activate the desired python module. If you used the instructions
+above, this should be
 ```
 module load Anaconda3/2018.12
 ```
