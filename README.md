@@ -10,4 +10,7 @@ Large-scale Data Analysis at the University of Chicago.
 2. The "Earth to Jupyter in 30 Seconds: Getting Started on Midway" guide can be
    found
    [here](https://github.com/bendkill/lsda/blob/master/docs/rcc_guide.md). It's
-   useful for logging into the Research Computing Center and starting a Jupyter notebook.
+   useful for logging into the Research Computing Center and starting a Jupyter
+   notebook.
+3. An example using the `keras` API to classify MNIST digits can be found
+   [here](https://github.com/bendkill/lsda/blob/master/demos/keras_demo.ipynb).
